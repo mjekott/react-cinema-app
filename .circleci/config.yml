@@ -16,7 +16,7 @@ jobs:
             - app-
       - run:
           name: Install yarn
-          command: yarn install -g yarn
+          command: npm install -g yarn
       - run:
           name: Install dependencies
           command: yarn install
@@ -43,7 +43,7 @@ jobs:
             sudo apt-get install -y python-pip python-dev build-essential
       - run:
           name: Install yarn
-          command: yarn install -g yarn
+          command: npm install -g yarn
       - run:
           name: Install dependencies
           command: yarn install
